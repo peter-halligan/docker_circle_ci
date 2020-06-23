@@ -1,5 +1,6 @@
 setup:
 	python3 -m venv ~/.docker_circle_ci
+
 install:
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
